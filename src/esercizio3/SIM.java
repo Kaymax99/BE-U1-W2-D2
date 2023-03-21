@@ -3,6 +3,7 @@ package esercizio3;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class SIM {
 	
 	int phoneNum;
@@ -33,10 +34,10 @@ public class SIM {
 	}
 	
 	public void findNumber(int number) {
-//		ListaContatti.entrySet().forEach(entry -> {
-//			if (ListaContatti.containsValue(number))
-//		    System.out.println(entry.getKey() + ": " + entry.getValue());
-//		});
+		ListaContatti.entrySet().forEach(entry -> {
+			if (entry.getValue() == number)
+		    System.out.println("The number " + number + " belongs to: " + entry.getKey());
+		});
 	}
 	
 	public void printAllContacts() {

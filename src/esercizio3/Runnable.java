@@ -19,8 +19,8 @@ public class Runnable {
 		System.out.println("\nSearching for Shibe's number:");
 		mySIM.findPerson("Shibe");
 		
-//		System.out.println("\nSearching for number 1987654321:");
-//		mySIM.findNumber(1987654321);
+		System.out.println("\nSearching for number 1987654321:");
+		mySIM.findNumber(1987654321);
 	}
 
 }
